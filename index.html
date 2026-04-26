@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vitalis Relax | Massageadores para conforto e bem-estar</title>
+  <meta name="description" content="Massageadores selecionados para mais conforto, relaxamento e bem-estar na rotina de pessoas 50+." />
+  <style>
+    :root{
+      --bg:#f6f2ea; --surface:#fffaf2; --card:#ffffff; --text:#24312c; --muted:#65736d;
+      --green:#285f52; --green-2:#3c7c6b; --gold:#c58d3b; --gold-2:#f4d7a2; --line:#e7dccb;
+      --shadow:0 18px 50px rgba(36,49,44,.11); --radius:26px; --max:1180px;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial, Helvetica, sans-serif;background:var(--bg);color:var(--text);font-size:18px;line-height:1.55}
+    a{text-decoration:none;color:inherit} img{max-width:100%;display:block} .wrap{width:min(var(--max),92%);margin:auto}
+    .pill{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border:1px solid var(--line);border-radius:999px;background:rgba(255,250,242,.8);font-size:14px;color:var(--green);font-weight:700}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:14px 24px;border-radius:999px;background:var(--green);color:white;font-weight:800;box-shadow:0 12px 25px rgba(40,95,82,.25);transition:.2s ease;border:0;cursor:pointer}
+    .btn:hover{transform:translateY(-2px);background:#1f4e44}.btn.alt{background:#fff;color:var(--green);border:1px solid var(--line);box-shadow:none}.btn.gold{background:linear-gradient(135deg,var(--gold),#a86f24)}
+    header{position:sticky;top:0;z-index:20;background:rgba(246,242,234,.86);backdrop-filter:blur(14px);border-bottom:1px solid rgba(231,220,203,.75)}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;font-size:22px;color:var(--green)}
+    .logo{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--green),var(--green-2));display:grid;place-items:center;box-shadow:0 10px 25px rgba(40,95,82,.2)}
+    .logo svg{width:26px;height:26px}.menu{display:flex;gap:24px;color:var(--muted);font-size:15px;font-weight:700}.menu a:hover{color:var(--green)}
+    .hero{padding:78px 0 54px;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:-120px -120px auto auto;width:520px;height:520px;background:radial-gradient(circle,var(--gold-2),transparent 65%);opacity:.75;z-index:-1}
+    .hero-grid{display:grid;grid-template-columns:1.03fr .97fr;gap:48px;align-items:center}h1{font-size:clamp(40px,5.4vw,72px);line-height:1.03;margin:18px 0;color:#1f342e;letter-spacing:-2px}h2{font-size:clamp(32px,4vw,48px);line-height:1.1;margin:0 0 16px;letter-spacing:-1px}h3{font-size:25px;line-height:1.2;margin:0 0 10px}.lead{font-size:21px;color:var(--muted);max-width:660px}.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin:30px 0}.trust{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}.trust div{padding:16px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.58);font-weight:800;font-size:14px;color:var(--green)}
+    .showcase{background:var(--surface);border:1px solid var(--line);border-radius:36px;padding:24px;box-shadow:var(--shadow);position:relative}.showcase-main{height:430px;border-radius:28px;background:linear-gradient(145deg,#fff,#efe5d4);display:grid;place-items:center;overflow:hidden;position:relative}.showcase-main:after{content:"";position:absolute;bottom:35px;width:72%;height:28px;background:rgba(36,49,44,.13);filter:blur(18px);border-radius:50%}.device-art{width:min(82%,420px);height:270px;position:relative;z-index:2}.device-art span{position:absolute;border-radius:28px;background:linear-gradient(135deg,#2d6b5b,#f2c77b);box-shadow:0 22px 45px rgba(40,95,82,.22)}.d1{width:185px;height:95px;left:15px;top:88px}.d2{width:145px;height:145px;right:45px;top:25px;border-radius:50%!important}.d3{width:230px;height:72px;right:40px;bottom:32px}.d4{width:74px;height:220px;left:170px;top:20px;transform:rotate(-18deg)}
+    section{padding:72px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:34px}.section-head p{color:var(--muted);max-width:520px;margin:0}.pain{background:#fff}.pain-grid,.benefit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.mini-card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px}.mini-card b{color:var(--green);display:block;margin-bottom:8px;font-size:20px}.mini-card p{color:var(--muted);margin:0;font-size:16px}
+    .products{display:grid;gap:24px}.product{display:grid;grid-template-columns:330px 1fr;gap:28px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:0 10px 35px rgba(36,49,44,.06)}.product-img{min-height:300px;border-radius:22px;background:linear-gradient(145deg,#f7efe2,#fff);display:grid;place-items:center;position:relative;overflow:hidden}.product-img img{width:86%;max-height:270px;object-fit:contain;position:relative;z-index:2}.product-img img.is-broken{display:none}.fallback-icon{position:absolute;width:180px;height:110px;border-radius:40px;background:linear-gradient(135deg,var(--green-2),var(--gold-2));box-shadow:0 22px 42px rgba(40,95,82,.18)}.fallback-icon:before{content:"";position:absolute;right:-35px;top:28px;width:76px;height:52px;border-radius:999px;background:rgba(255,255,255,.7)}.tag-row{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 18px}.tag{font-size:13px;font-weight:800;color:var(--green);background:#edf5f1;border:1px solid #d4e7df;border-radius:999px;padding:7px 11px}.price{font-size:34px;font-weight:900;color:var(--green);margin:8px 0 12px}.product p{color:var(--muted);margin:0 0 16px}.details{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0}.details div{background:#fbf7ef;border:1px solid var(--line);border-radius:18px;padding:14px;font-size:15px}.details strong{display:block;color:var(--text);margin-bottom:4px}
+    .compare-wrap{overflow:auto;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}table{width:100%;border-collapse:collapse;min-width:870px}th,td{padding:18px;border-bottom:1px solid var(--line);text-align:left;font-size:16px}th{background:#f4eadb;color:var(--green)}td{color:var(--muted)}td b{color:var(--text)}
+    .chooser{display:grid;grid-template-columns:1fr 1fr;gap:22px}.choice{background:#fff;border:1px solid var(--line);border-radius:24px;padding:26px;box-shadow:0 10px 30px rgba(36,49,44,.06)}.choice h3{color:var(--green)}.choice p{color:var(--muted);margin:0}
+    .testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.quote{background:#fff;border:1px solid var(--line);border-radius:24px;padding:25px;box-shadow:0 10px 30px rgba(36,49,44,.06)}.quote p{color:var(--muted)}.quote strong{color:var(--green)}
+    .faq{display:grid;grid-template-columns:1fr 1fr;gap:16px}.faq details{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px}.faq summary{font-weight:900;cursor:pointer;color:var(--green)}.faq p{color:var(--muted);margin-bottom:0}.final{background:linear-gradient(135deg,#214d43,#397565);color:white;border-radius:40px;padding:56px;display:grid;grid-template-columns:1fr auto;gap:22px;align-items:center}.final p{color:#e8f3ef;max-width:700px}.final .btn{background:#fff;color:var(--green)}footer{padding:38px 0;background:#1f342e;color:#d9e5df}footer .foot{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}footer a{color:#fff;margin-right:16px;font-size:14px}footer p{max-width:720px;font-size:14px;color:#b9c8c1}
+    @media(max-width:900px){.menu{display:none}.hero-grid,.product,.chooser,.final{grid-template-columns:1fr}.trust,.pain-grid,.benefit-grid,.testimonials,.faq{grid-template-columns:1fr}.section-head{display:block}.showcase-main{height:330px}.details{grid-template-columns:1fr}.product-img{min-height:240px}body{font-size:17px}.final{padding:34px;border-radius:28px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="Vitalis Relax">
+        <span class="logo" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none"><path d="M32 9c11 9 18 17 18 28 0 11-8 18-18 18s-18-7-18-18c0-11 7-19 18-28Z" fill="#fff" opacity=".95"/><path d="M22 35c8-1 14-5 20-13-2 15-8 24-20 25" stroke="#285f52" stroke-width="5" stroke-linecap="round"/></svg></span>
+        Vitalis Relax
+      </a>
+      <nav class="menu" aria-label="Menu principal">
+        <a href="#produtos">Produtos</a><a href="#comparativo">Comparativo</a><a href="#escolher">Como escolher</a><a href="#faq">Dúvidas</a>
+      </nav>
+      <a class="btn" href="#produtos">Ver produtos</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="pill">Bem-estar diário para uma rotina mais leve</span>
+          <h1>Conforto, relaxamento e cuidado no seu ritmo.</h1>
+          <p class="lead">A Vitalis Relax seleciona massageadores práticos para costas, pescoço, pernas, pés e ombros — pensados para adultos 50+ e para familiares que querem presentear com cuidado.</p>
+          <div class="hero-actions"><a class="btn gold" href="#produtos">Escolher meu massageador</a><a class="btn alt" href="#comparativo">Comparar modelos</a></div>
+          <div class="trust"><div>✓ Compra simples</div><div>✓ Produtos selecionados</div><div>✓ Linguagem clara</div></div>
+        </div>
+        <div class="showcase" aria-label="Composição visual de massageadores">
+          <div class="showcase-main"><div class="device-art"><span class="d1"></span><span class="d2"></span><span class="d3"></span><span class="d4"></span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pain">
+      <div class="wrap">
+        <div class="section-head"><div><span class="pill">Para o corpo descansar melhor</span><h2>Pequenos momentos de cuidado fazem diferença.</h2></div><p>Depois de um dia longo, é comum sentir tensão nas costas, cansaço nas pernas ou desconforto no pescoço. Os massageadores ajudam a criar pausas de relaxamento sem complicação, sempre com uso responsável.</p></div>
+        <div class="pain-grid">
+          <div class="mini-card"><b>Costas e lombar</b><p>Para relaxar sentado no sofá, na cadeira ou no quarto.</p></div>
+          <div class="mini-card"><b>Pescoço e ombros</b><p>Ideal para quem passa tempo olhando telas ou sente tensão no fim do dia.</p></div>
+          <div class="mini-card"><b>Pernas e pés</b><p>Uma pausa confortável depois de caminhar, trabalhar ou ficar em pé.</p></div>
+          <div class="mini-card"><b>Uso fácil</b><p>Modelos simples de usar, com controles claros e rotina prática.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="produtos">
+      <div class="wrap">
+        <div class="section-head"><div><span class="pill">Linha Vitalis Relax</span><h2>Escolha o modelo ideal para seu momento.</h2></div><p>Todos os nomes abaixo fazem parte do rebranding da Vitalis Relax. Basta trocar os links dos botões pelos seus checkouts finais.</p></div>
+        <div class="products">
+
+          <article class="product">
+            <div class="product-img"><span class="fallback-icon"></span><img src="assets/produto-1.png" loading="lazy" alt="Vitalis MiniPulse" onerror="this.classList.add('is-broken')"></div>
+            <div><div class="tag-row"><span class="tag">Portátil</span><span class="tag">Recarregável</span><span class="tag">Intensidade ajustável</span></div><h3>Vitalis MiniPulse</h3><div class="price">R$ 77,90</div><p>Massageador compacto para quem quer praticidade no dia a dia. Ajuda a relaxar pontos de tensão em braços, pernas, ombros e costas, com diferentes ponteiras para adaptar o uso.</p><div class="details"><div><strong>Indicado para</strong>Quem quer um modelo leve e fácil de guardar.</div><div><strong>Diferenciais</strong>Formato portátil, bateria recarregável e múltiplas intensidades.</div><div><strong>Região</strong>Corpo todo, com foco pontual.</div></div><a class="btn" href="#checkout-produto-1">Comprar agora</a></div>
+          </article>
+
+          <article class="product">
+            <div class="product-img"><span class="fallback-icon"></span><img src="assets/produto-2.png" loading="lazy" alt="Vitalis TermoConfort" onerror="this.classList.add('is-broken')"></div>
+            <div><div class="tag-row"><span class="tag">Aquecimento</span><span class="tag">Casa e escritório</span><span class="tag">Uso sentado</span></div><h3>Vitalis TermoConfort</h3><div class="price">R$ 97,90</div><p>Almofada massageadora com aquecimento, pensada para momentos de descanso no sofá, na cadeira ou no escritório. Boa escolha para pescoço, ombros, costas e lombar.</p><div class="details"><div><strong>Indicado para</strong>Quem busca conforto com calor suave.</div><div><strong>Diferenciais</strong>Formato de almofada, sensação acolhedora e uso simples.</div><div><strong>Região</strong>Pescoço, ombros, costas e lombar.</div></div><a class="btn" href="#checkout-produto-2">Comprar agora</a></div>
+          </article>
+
+          <article class="product">
+            <div class="product-img"><span class="fallback-icon"></span><img src="assets/produto-3.png" loading="lazy" alt="Vitalis ShiatsuFlex" onerror="this.classList.add('is-broken')"></div>
+            <div><div class="tag-row"><span class="tag">Shiatsu</span><span class="tag">Aquecimento opcional</span><span class="tag">Desligamento automático</span></div><h3>Vitalis ShiatsuFlex</h3><div class="price">R$ 147,90</div><p>Modelo versátil para quem gosta de massagem mais envolvente. Simula movimentos de amassamento e permite alternar modos e intensidades para relaxar com segurança.</p><div class="details"><div><strong>Indicado para</strong>Quem quer um massageador completo para uso frequente.</div><div><strong>Diferenciais</strong>Modos de massagem, calor opcional e desligamento automático.</div><div><strong>Região</strong>Pescoço, ombros, costas e pernas.</div></div><a class="btn" href="#checkout-produto-3">Comprar agora</a></div>
+          </article>
+
+          <article class="product">
+            <div class="product-img"><span class="fallback-icon"></span><img src="assets/produto-4.png" loading="lazy" alt="Vitalis OmbroCare" onerror="this.classList.add('is-broken')"></div>
+            <div><div class="tag-row"><span class="tag">Ombros</span><span class="tag">Vibração</span><span class="tag">Conforto térmico</span></div><h3>Vitalis OmbroCare</h3><div class="price">R$ 597,90</div><p>Massageador envolvente para ombros e região superior das costas. Ideal para quem procura uma experiência mais premium, com ajuste confortável e sensação de cuidado localizado.</p><div class="details"><div><strong>Indicado para</strong>Quem sente a região dos ombros carregada no fim do dia.</div><div><strong>Diferenciais</strong>Formato anatômico, aquecimento e vibração.</div><div><strong>Região</strong>Ombros, pescoço e parte superior das costas.</div></div><a class="btn" href="#checkout-produto-4">Comprar agora</a></div>
+          </article>
+
+          <article class="product">
+            <div class="product-img"><span class="fallback-icon"></span><img src="assets/produto-5.png" loading="lazy" alt="Vitalis Pé & Perna Pro" onerror="this.classList.add('is-broken')"></div>
+            <div><div class="tag-row"><span class="tag">Pés e pernas</span><span class="tag">Premium</span><span class="tag">Relaxamento completo</span></div><h3>Vitalis Pé & Perna Pro</h3><div class="price">R$ 797,90</div><p>Modelo robusto para quem deseja uma pausa de relaxamento mais completa nos pés e pernas. Uma opção forte para presentear pais, mães e avós com conforto diário.</p><div class="details"><div><strong>Indicado para</strong>Quem passa muito tempo em pé ou deseja conforto para pernas e pés.</div><div><strong>Diferenciais</strong>Estrutura premium, uso intuitivo e foco em relaxamento inferior.</div><div><strong>Região</strong>Pés, panturrilhas e pernas.</div></div><a class="btn" href="#checkout-produto-5">Comprar agora</a></div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="comparativo">
+      <div class="wrap">
+        <div class="section-head"><div><span class="pill">Comparativo simples</span><h2>Veja qual combina mais com você.</h2></div><p>Uma visão rápida para facilitar a escolha sem termos técnicos.</p></div>
+        <div class="compare-wrap"><table><thead><tr><th>Produto</th><th>Melhor para</th><th>Região</th><th>Intensidade</th><th>Aquecimento</th><th>Portabilidade</th><th>Perfil recomendado</th></tr></thead><tbody>
+          <tr><td><b>MiniPulse</b></td><td>Uso pontual</td><td>Corpo todo</td><td>Média/alta</td><td>Não</td><td>Alta</td><td>Quem quer começar gastando pouco</td></tr>
+          <tr><td><b>TermoConfort</b></td><td>Calor e relaxamento</td><td>Costas/pescoço</td><td>Média</td><td>Sim</td><td>Média</td><td>Uso no sofá ou escritório</td></tr>
+          <tr><td><b>ShiatsuFlex</b></td><td>Massagem envolvente</td><td>Pescoço/costas</td><td>Ajustável</td><td>Sim</td><td>Média</td><td>Uso frequente e versátil</td></tr>
+          <tr><td><b>OmbroCare</b></td><td>Ombros carregados</td><td>Ombros/pescoço</td><td>Suave/média</td><td>Sim</td><td>Baixa</td><td>Quem busca experiência premium</td></tr>
+          <tr><td><b>Pé & Perna Pro</b></td><td>Pernas e pés cansados</td><td>Pés/pernas</td><td>Média</td><td>Conforme modelo</td><td>Baixa</td><td>Presente premium para rotina diária</td></tr>
+        </tbody></table></div>
+      </div>
+    </section>
+
+    <section id="escolher">
+      <div class="wrap">
+        <div class="section-head"><div><span class="pill">Como escolher</span><h2>Não precisa complicar.</h2></div></div>
+        <div class="chooser">
+          <div class="choice"><h3>Quero algo leve e barato</h3><p>Escolha o <b>MiniPulse</b>. Ele é portátil, fácil de guardar e funciona bem para massagens pontuais.</p></div>
+          <div class="choice"><h3>Quero conforto com calor</h3><p>Escolha o <b>TermoConfort</b> ou o <b>ShiatsuFlex</b>. São boas opções para costas, lombar, pescoço e ombros.</p></div>
+          <div class="choice"><h3>Quero foco nos ombros</h3><p>O <b>OmbroCare</b> é o mais indicado para uma experiência localizada e mais premium.</p></div>
+          <div class="choice"><h3>Quero cuidar dos pés e pernas</h3><p>O <b>Pé & Perna Pro</b> é a escolha mais completa para relaxar a parte inferior do corpo.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head"><div><span class="pill">Por que Vitalis Relax</span><h2>Uma marca criada para transmitir confiança.</h2></div><p>Visual limpo, comunicação simples e seleção pensada para pessoas que valorizam conforto, autonomia e qualidade de vida.</p></div>
+        <div class="benefit-grid">
+          <div class="mini-card"><b>Compra simples</b><p>Botões claros e uma página fácil de navegar.</p></div>
+          <div class="mini-card"><b>Produtos selecionados</b><p>Opções para diferentes regiões do corpo e faixas de preço.</p></div>
+          <div class="mini-card"><b>Foco em conforto</b><p>Comunicação responsável, sem promessas médicas exageradas.</p></div>
+          <div class="mini-card"><b>Segurança</b><p>Garantia e política de troca conforme as condições do checkout final.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head"><div><span class="pill">Depoimentos</span><h2>Histórias reais no tom certo.</h2></div></div>
+        <div class="testimonials">
+          <div class="quote"><p>“Comprei para usar no fim do dia. Achei simples de usar e virou uma pausa gostosa depois do trabalho.”</p><strong>Marisa, 58 anos</strong></div>
+          <div class="quote"><p>“Dei para minha mãe. Ela gostou porque não precisa configurar muita coisa, é ligar e relaxar com calma.”</p><strong>Renato, 42 anos</strong></div>
+          <div class="quote"><p>“Uso principalmente nas costas enquanto vejo televisão. O calor deixa a sensação mais confortável.”</p><strong>Seu Antônio, 71 anos</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="wrap">
+        <div class="section-head"><div><span class="pill">Perguntas frequentes</span><h2>Tire suas dúvidas antes de escolher.</h2></div></div>
+        <div class="faq">
+          <details><summary>Serve para idosos?</summary><p>Sim, desde que a pessoa consiga usar com segurança e conforto. Em caso de condição de saúde, sensibilidade, cirurgia recente ou dor persistente, consulte um profissional.</p></details>
+          <details><summary>Tem aquecimento?</summary><p>Alguns modelos têm aquecimento, como TermoConfort, ShiatsuFlex e OmbroCare. Confira a descrição de cada produto antes de comprar.</p></details>
+          <details><summary>Posso usar todos os dias?</summary><p>O uso deve seguir o manual do produto e respeitar o conforto do corpo. Evite sessões longas demais e interrompa se sentir incômodo.</p></details>
+          <details><summary>Qual o melhor para costas?</summary><p>Para costas e lombar, o TermoConfort e o ShiatsuFlex são as opções mais versáteis.</p></details>
+          <details><summary>Qual o melhor para pernas?</summary><p>Para pernas e pés, o Pé & Perna Pro é o mais indicado. Para pontos específicos, o MiniPulse também pode ajudar no relaxamento.</p></details>
+          <details><summary>Como faço para comprar?</summary><p>Clique em “Comprar agora” no produto escolhido. Depois, substitua o link placeholder pelo link do seu checkout real.</p></details>
+          <details><summary>O produto substitui tratamento médico?</summary><p>Não. Os massageadores são produtos de bem-estar e relaxamento. Eles não substituem avaliação, diagnóstico ou tratamento médico.</p></details>
+          <details><summary>Tem garantia?</summary><p>A garantia depende das condições do vendedor e do checkout usado. Mantenha um texto final alinhado com a sua política comercial.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap final">
+        <div><h2>Escolha hoje uma rotina com mais conforto.</h2><p>Compare os modelos, veja o que combina com sua necessidade e tenha uma experiência mais prática de relaxamento em casa.</p></div>
+        <a class="btn" href="#produtos">Voltar aos produtos</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div><div class="brand" style="color:#fff"><span class="logo"><svg viewBox="0 0 64 64" fill="none"><path d="M32 9c11 9 18 17 18 28 0 11-8 18-18 18s-18-7-18-18c0-11 7-19 18-28Z" fill="#fff"/><path d="M22 35c8-1 14-5 20-13-2 15-8 24-20 25" stroke="#285f52" stroke-width="5" stroke-linecap="round"/></svg></span>Vitalis Relax</div><p>Produtos de bem-estar voltados para conforto e relaxamento. As informações desta página não substituem orientação médica.</p></div>
+      <div><a href="#">Política de Privacidade</a><a href="#">Termos de Uso</a><a href="#">Contato</a></div>
+    </div>
+  </footer>
+</body>
+</html>
